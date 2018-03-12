@@ -11,9 +11,7 @@
 </head>
 <body>
   @include('components.navbar')
-  <div class="container-fluid">
     @yield('content')
-  </div>
   <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
