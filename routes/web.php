@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'RecyclePageController@index')->name('home');
+
+Route::get('/contact', 'RecyclePageController@contact');

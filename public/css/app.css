@@ -10000,3 +10000,10 @@ a.text-dark:focus {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+#card {
+  -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%, 6% 51%);
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%, 6% 51%);
+  -webkit-box-shadow: -20px 12px #3a3838;
+          box-shadow: -20px 12px #3a3838;
+}
+
