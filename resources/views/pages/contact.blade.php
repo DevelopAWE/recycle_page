@@ -41,20 +41,20 @@
       <div class="row">
         <div class="form-group col-sm-6">
           <label for="name">Name:<strong style="font-size: 1.3rem">*</strong></label>
-          <input type="text" class="form-control" id="name" name="name" required aria-required="true" placeholder="Your full name">
+          <input type="text" class="form-control" id="name" name="name" required aria-required="true" placeholder="Your full name" disabled>
         </div>
         <div class="form-group col-sm-6">
           <label for="email">Email:<strong style="font-size: 1.3rem">*</strong></label>
-          <input type="email" class="form-control" id="email" name="email" required aria-required="true" placeholder="Your email">
+          <input type="email" class="form-control" id="email" name="email" required aria-required="true" placeholder="Your email" disabled>
         </div>
       </div>
       <div class="form-group">
         <label for="subject">Subject:</label>
-        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject of your message">
+        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject of your message" disabled>
       </div>
       <div class="form-group">
         <label for="content">Content:<strong style="font-size: 1.3rem">*</strong></label>
-        <textarea class="form-control" name="content" id="content" cols="30" rows="10" required aria-required="true"></textarea>
+        <textarea class="form-control" name="content" id="content" cols="30" rows="10" required aria-required="true" disabled></textarea>
       </div>
         <h6 class="text-muted text-right">Fields marked with <strong style="font-size: 1.3rem">*</strong> are required</h6>
       <div class="form-group">
