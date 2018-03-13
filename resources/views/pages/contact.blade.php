@@ -14,7 +14,7 @@
 <hr>
 <div class="container">
   <div class="row">
-    <div class="card" id="card">
+    <div class="card col-sm-9" id="card">
       <div class="card-body">
         <h2 class="card-title text-right">Connect with Wisconsin ITAD LLC</h2>
         <h6 class="card-subtitle text-muted text-right">
@@ -28,23 +28,35 @@
         </p>
       </div>
     </div>
+    <div class="col-sm-3">
+      <img class="img-fluid" src="{{ asset('img/wisconsin.png') }}" alt="Image of Wisconsin">
+    </div>
   </div>
 </div>
-<div class="container-fluid">
-  <div class="col-sm-9">
-    <form action="" method="post">
-      <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" class="form-control" id="name" name="name">
+<hr>
+<div class="container">
+  <div class="center">
+    <form action="/contact" method="post">
+      {{ csrf_field() }}
+      <div class="row">
+        <div class="form-group col-sm-6">
+          <label for="name">Name:<strong style="font-size: 1.3rem">*</strong></label>
+          <input type="text" class="form-control" id="name" name="name" required aria-required="true" placeholder="Your full name">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="email">Email:<strong style="font-size: 1.3rem">*</strong></label>
+          <input type="email" class="form-control" id="email" name="email" required aria-required="true" placeholder="Your email">
+        </div>
       </div>
       <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="text" class="form-control" id="email" name="email">
+        <label for="subject">Subject:</label>
+        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject of your message">
       </div>
       <div class="form-group">
-        <label for="content">Content:</label>
-        <textarea class="form-control" name="content" id="content" cols="30" rows="10"></textarea>
+        <label for="content">Content:<strong style="font-size: 1.3rem">*</strong></label>
+        <textarea class="form-control" name="content" id="content" cols="30" rows="10" required aria-required="true"></textarea>
       </div>
+        <h6 class="text-muted text-right">Fields marked with <strong style="font-size: 1.3rem">*</strong> are required</h6>
       <div class="form-group">
         <button class="btn btn-primary" type="submit">Submit</button>
         <button class="btn btn-danger" type="reset">Reset</button>
