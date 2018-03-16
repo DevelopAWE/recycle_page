@@ -7,24 +7,13 @@
               <div class="green-bar__inner">
                 <ul class="menu" id="menu-top-menu">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163" id="menu-item-163">
-                    <a href="#">Why Wisconsin ITAD LLC</a>
+                    <a href="/why-ITAD">Why Wisconsin ITAD LLC</a>
                   </li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-164" id="menu-item-164">
-                    <a href="#">About Us</a>
-                    {{--  <ul class="sub-menu">
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-377" id="menu-item-377">
-                        <a href="#">Locations</a>
-                      </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378" id="menu-item-378">
-                        <a href="#">News</a>
-                      </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-379" id="menu-item-379">
-                        <a href="#">Videos</a>
-                      </li>
-                    </ul>  --}}
+                    <a href="/about">About Us</a>
                   </li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165" id="menu-item-163">
-                    <a href="#">Contact</a>
+                    <a href="/contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -75,7 +64,7 @@
               <a href="#">About Us</a>
             </li>
             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158" id="menu-item-158">
-              <a href="#">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-167 current_page_item menu-item-342"
               id="menu-item-342">

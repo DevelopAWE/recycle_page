@@ -13,6 +13,8 @@
 
 Route::get('/', 'RecyclePageController@index')->name('home');
 
+Route::get('/why-ITAD', 'RecyclePageController@why');
+
 Route::get('/about', 'RecyclePageController@about');
 
 Route::get('/contact', 'RecyclePageController@contact');

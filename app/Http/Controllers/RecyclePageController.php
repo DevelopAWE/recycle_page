@@ -18,4 +18,9 @@ class RecyclePageController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function why()
+    {
+        return view('pages.why');
+    }
 }
