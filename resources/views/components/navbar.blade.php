@@ -26,7 +26,8 @@
         <div class="container">
           <div class="row">
             <a class="col-sm-3 logo" href="/">
-              <img class="logo-img" src="#" alt="Logo">
+              {{--  <img class="logo-img" src="#" alt="Logo">  --}}
+              <h3 style="color: #3FB04E;">Wisconsin ITAD</h3>
             </a>
             <div class="col-sm-9">
               <div class="nav-eyebrow">
@@ -34,9 +35,6 @@
                   <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-167 current_page_item menu-item-206"
                     id="menu-item-206">
                     <a href="#">Electronics Recycling</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153" id="menu-item-153">
-                    <a href="#">Secure Data Destruction</a>
                   </li>
                   {{--  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154" id="menu-item-154">
                     <a href="#">I.T. Asset Remarketing (ITAD)</a>
@@ -55,26 +53,16 @@
         <div class="mobile-menu">
           <ul class="menu" id="menu-mobile-menu">
             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-156" id="menu-item-156">
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162" id="menu-item-162">
-              <a href="#">Why Wisconsin ITAD LLC</a>
+              <a href="/why-ITAD">Why Wisconsin ITAD LLC</a>
             </li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-381" id="menu-item-381">
-              <a href="#">About Us</a>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381" id="menu-item-381">
+              <a href="/about">About Us</a>
             </li>
             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158" id="menu-item-158">
               <a href="/contact">Contact</a>
-            </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-167 current_page_item menu-item-342"
-              id="menu-item-342">
-              <a href="#">Electronics Recycling</a>
-            </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161" id="menu-item-161">
-              <a href="#">Secure Data Destruction</a>
-            </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160" id="menu-item-160">
-              <a href="#">IT Asset Remarketing (ITAD)</a>
             </li>
           </ul>
         </div>
@@ -118,21 +106,21 @@
                           <label>
                             <span class="wpcf7-form-control-wrap your-name">
                               <input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" name="your-name" type="text" aria-invalid="false"
-                                aria-required="true" value size="40" placeholder="NAME*">
+                                aria-required="true" value size="40" placeholder="NAME*" disabled>
                             </span>
                           </label>
                         </div>
                         <div class="col-sm-6">
                           <label>
                             <span class="wpcf7-form-control-wrap your-company">
-                              <input class="wpcf7-form-control wpcf7-text" name="your-company" type="text" aria-invalid="false" value size="40" placeholder="COMPANY">
+                              <input class="wpcf7-form-control wpcf7-text" name="your-company" type="text" aria-invalid="false" value size="40" placeholder="COMPANY" disabled>
                             </span>
                           </label>
                         </div>
                         <div class="col-sm-6">
                           <label>
                             <span class="wpcf7-form-control-wrap your-phone">
-                              <input class="wpcf7-form-control wpcf7-text" name="your-phone" type="text" aria-invalid="false" value size="40" placeholder="PHONE">
+                              <input class="wpcf7-form-control wpcf7-text" name="your-phone" type="text" aria-invalid="false" value size="40" placeholder="PHONE" disabled>
                             </span>
                           </label>
                         </div>
@@ -140,14 +128,14 @@
                           <label>
                             <span class="wpcf7-form-control-wrap your-email">
                               <input class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" name="your-email"
-                                type="email" aria-invalid="false" aria-required="true" value size="40" placeholder="EMAIL*">
+                                type="email" aria-invalid="false" aria-required="true" value size="40" placeholder="EMAIL*" disabled>
                             </span>
                           </label>
                         </div>
                         <div class="col-sm-12">
                           <label>
                             <span class="wpcf7-form-control-wrap your-message">
-                              <textarea class="wpcf7-form-control wpcf7-textarea" name="your-message" aria-invalid="false" cols="40" rows="10" placeholder="MESSAGE"></textarea>
+                              <textarea class="wpcf7-form-control wpcf7-textarea" name="your-message" aria-invalid="false" cols="40" rows="10" placeholder="MESSAGE" disabled></textarea>
                             </span>
                           </label>
                         </div>
